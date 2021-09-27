@@ -123,9 +123,9 @@ Once you have done this for all of your existing pools you should now restore yo
 Download and install the [.Net Core 3.1 SDK](https://www.microsoft.com/net/download/core)
 
 ```dosbatch
-> git clone https://github.com/AlphaX-Projects/alphaxcore
-> cd alphaxcore/src/Alphaxcore
-> dotnet publish -c Release --framework netcoreapp3.1  -o ..\..\build
+git clone https://github.com/AlphaX-Projects/alphaxcore
+cd alphaxcore/src/Alphaxcore
+dotnet publish -c Release --framework netcoreapp3.1  -o ..\..\build
 ```
 
 #### Building on Windows - Visual Studio
