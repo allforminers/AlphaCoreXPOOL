@@ -108,14 +108,14 @@ Once you have done this for all of your existing pools you should now restore yo
 #### Building on Ubuntu 20.04
 
 ```console
-$ wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
-$ sudo dpkg -i packages-microsoft-prod.deb
-$ sudo apt-get update -y
-$ sudo apt-get install apt-transport-https -y
-$ sudo apt-get -y install dotnet-sdk-3.1 git cmake build-essential libssl-dev pkg-config libboost-all-dev libsodium-dev libzmq5
-$ git clone https://github.com/AlphaX-Projects/alphaxcore
-$ cd alphaxcore/src/Alphaxcore
-$ dotnet publish -c Release --framework netcoreapp3.1  -o ../../build
+ wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+ sudo dpkg -i packages-microsoft-prod.deb
+ sudo apt-get update -y
+ sudo apt-get install apt-transport-https -y
+ sudo apt-get -y install dotnet-sdk-3.1 git cmake build-essential libssl-dev pkg-config libboost-all-dev libsodium-dev libzmq5
+ git clone https://github.com/AlphaX-Projects/alphaxcore
+ cd alphaxcore/src/Alphaxcore
+ dotnet publish -c Release --framework netcoreapp3.1  -o ../../build
 ```
 
 #### Building on Windows
